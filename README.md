@@ -1,4 +1,4 @@
-AES256 Text Encryption and Decryption Project
+AES256 GCM File Encryption and Decryption Project
 
 Overview
 
