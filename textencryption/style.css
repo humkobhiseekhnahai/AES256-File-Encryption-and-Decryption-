@@ -1,0 +1,73 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    /* background-color: cornsilk; */
+    background-color: black;
+    background-image: url(hacker-infiltrate-mind-iiypdl5lb9mwcv9f.jpeg);
+}
+
+.file {
+    opacity: 0;
+    width: 0.1px;
+    height: 0.1px;
+    position: absolute;
+  }
+  
+  .file-input label {
+    display: block;
+    position: relative;
+    width: 100px;
+    height: 30px;
+    border-radius: 25px;
+    background: linear-gradient(98.3deg, rgb(0, 0, 0) 10.6%, rgb(255, 0, 0) 97.7%);
+    margin-top: 20px;
+    box-shadow: 0 4px 7px rgba(0, 0, 0, 0.4);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+    transition: transform .2s ease-out;
+  }
+  
+  .file-name {
+    position: absolute;
+    bottom: -20px;
+    left: 130px;
+    font-size: 0.85rem;
+    color: red;
+    margin-top: 20px;
+  }
+  
+  input:hover + label,
+  input:focus + label {
+    transform: scale(1.02);
+  }
+  
+  /* Adding an outline to the label on focus */
+  input:focus + label {
+    outline: 1px solid #000;
+    outline: -webkit-focus-ring-color auto 2px;
+  }
+
+.counter button {
+    margin-right: 10px;
+    margin-left: 5px;
+    color: white;
+    background-color: black;
+    border-color: red;
+    border-width: 5px;
+    width: 240px;
+    height: 30px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+
+}
+.counter button:hover {
+    background-color: darkslategray; /* Change background color on hover */
+}
